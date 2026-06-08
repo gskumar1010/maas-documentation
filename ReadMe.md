@@ -1,8 +1,8 @@
-# Model as a Service (MaaS) on Red Hat OpenShift AI 3.4
+# Models as a Service (MaaS) on Red Hat OpenShift AI 3.4
 
 ## Setup and Validation Guide
 
-This guide provides instructions for installing, configuring, and demonstrating Model as a Service (MaaS) on Red Hat OpenShift AI (RHOAI) 3.4 for Proof of Concepts.
+This guide provides instructions for installing, configuring, and demonstrating Models as a Service (MaaS) on Red Hat OpenShift AI (RHOAI) 3.4 for Proof of Concepts.
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ This guide provides instructions for installing, configuring, and demonstrating 
 
 ## Overview
 
-Model as a Service (MaaS) enables organizations to provide programmatic access to Large Language Models (LLMs) through a secure, token-based authentication system with built-in rate limiting and audit logging capabilities.
+Models as a Service (MaaS) enables organizations to provide programmatic access to Large Language Models (LLMs) through a secure, token-based authentication system with built-in rate limiting and audit logging capabilities.
 
 ## Prerequisites
 
@@ -477,7 +477,7 @@ API tokens can be used in various development environments:
 
 ## Summary
 
-This guide covered the complete setup and validation of Model as a Service on Red Hat OpenShift AI 3.4, including:
+This guide covered the  setup and validation of Models as a Service on Red Hat OpenShift AI 3.4, including:
 
 - Installation and configuration of all required components
 - Database setup for API key management
