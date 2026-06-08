@@ -270,6 +270,10 @@ oc logs -n redhat-ods-applications -l app=maas-api
 oc edit secret maas-db-config -n redhat-ods-applications
 ```
 
+![Troubleshooting Step 1](images/troubleshooting-1.png)
+
+![Troubleshooting Step 2](images/troubleshooting-2.png)
+
 ---
 
 ## Deploy Sample Models
@@ -284,6 +288,12 @@ Follow the steps in the official documentation to deploy sample models:
 ---
 
 ## Validation and Demo
+
+![Authorization Policy](images/authorization-policy.png)
+
+![Subscriptions](images/subscriptions.png)
+
+![Asset Endpoint](images/asset-endpoint.png)
 
 ### Create API Token
 
