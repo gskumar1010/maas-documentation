@@ -232,6 +232,8 @@ Reference: [Configure TLS for MaaS](https://docs.redhat.com/en/documentation/red
 
 ### 7. Configure Data Science Cluster
 
+> **IMPORTANT**: The `modelsAsService.managementState` must be set to `Managed` to enable Model as a Service functionality. Without this configuration, MaaS features will not be available.
+
 ```bash
 kubectl apply -f - <<EOF
 apiVersion: datasciencecluster.opendatahub.io/v2
@@ -244,7 +246,7 @@ spec:
       managementState: Managed
       rawDeploymentServiceConfig: Headed
       modelsAsService:
-          managementState: Managed
+          managementState: Managed  # CRITICAL: Must be set to Managed for MaaS
     dashboard:
       managementState: Managed
 EOF
