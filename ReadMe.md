@@ -2,7 +2,7 @@
 
 ## Setup and Validation Guide
 
-This guide provides comprehensive instructions for installing, configuring, and demonstrating Model as a Service (MaaS) on Red Hat OpenShift AI (RHOAI) 3.4.
+This guide provides instructions for installing, configuring, and demonstrating Model as a Service (MaaS) on Red Hat OpenShift AI (RHOAI) 3.4 for Proof of Concepts.
 
 ## Table of Contents
 
